@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    header{
+        background-color: black;
+    }
+
+
+    /* edit the margin bottom after values are set */
+    .webtitle{
+        padding: 1rem;
+        color: white;
+    }
+
+    .webdescription{
+        color: black;
+    }
+
+    @media screen and (min-width: 20rem){
+
+    }
+
+    @media screen and (min-width: 80rem){
+        .webtitle{
+            margin-left: 30rem;
+        }
+    }
+
+    @media screen and (min-width: 217rem){
+
+    }
