@@ -8,6 +8,20 @@
         background-color: black;
     }
 
+    a{
+        text-decoration: none;
+        color: blue;
+    }
+
+    nav ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        padding: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
 
     /* edit the margin bottom after values are set */
     .webtitle{
@@ -17,16 +31,18 @@
 
     .webdescription{
         color: black;
+        padding: 1rem;
     }
 
     @media screen and (min-width: 20rem){
+        /* nav ul{
+            margin-left: 2rem;
+        } */
 
     }
 
     @media screen and (min-width: 80rem){
-        .webtitle{
-            margin-left: 30rem;
-        }
+
     }
 
     @media screen and (min-width: 217rem){
