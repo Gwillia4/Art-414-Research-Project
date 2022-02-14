@@ -4,13 +4,34 @@
     box-sizing: border-box;
     }
 
+    body{
+        background-color: rgb(247, 230, 230);
+    }
+
+    html{
+        font-size: 1rem;
+    }
+
     header{
         background-color: black;
     }
 
-    a{
-        text-decoration: none;
-        color: blue;
+    h3{
+        margin-left: 7rem;
+    }
+
+    
+
+    nav{
+        background-color: rgb(200, 0, 0);
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom:  2px solid black;
+        
+    }
+
+    nav li{
+        width:30%;
     }
 
     nav ul{
@@ -18,10 +39,48 @@
         list-style: none;
         justify-content: space-between;
         padding: 1rem;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
     }
 
+    nav a{
+        text-decoration: none;
+        color: white;
+    }
+
+    nav a:hover{
+        font-size: 1.2rem;
+        /* background-color:rgb(91, 29, 150); */
+        text-decoration: underline;
+    }
+
+    nav a:focus{
+        background-color: black;
+    }
+
+    nav a:active{
+        background-color:rgb(91, 29, 150);
+    }
+
+    img{
+        display: block;
+        width: 50%;
+    }
+
+    .articleList{
+        background-color: white;
+        border: 2rem;
+    }
+
+
+    .me{
+        margin-left: 9rem;
+    }
+
+    .aboutme{
+        color: rgb(150, 5, 5);
+        margin-left: 7rem;
+        /* margin-top: 1rem; */
+        padding: 1rem;
+    }
 
     /* edit the margin bottom after values are set */
     .webtitle{
@@ -30,14 +89,16 @@
     }
 
     .webdescription{
+        text-align: center;
         color: black;
         padding: 1rem;
+        background-color: white;
     }
 
     @media screen and (min-width: 20rem){
-        /* nav ul{
-            margin-left: 2rem;
-        } */
+        .webtitle{
+            margin-left: 1rem;
+        }
 
     }
 
