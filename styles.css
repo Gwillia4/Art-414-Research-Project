@@ -13,21 +13,13 @@
     }
 
     header{
-        background-color: black;
+        background-color: white;
+        color: black;
     }
-
-    h3{
-        margin-left: 7rem;
-    }
-
-    
 
     nav{
         background-color: rgb(200, 0, 0);
-        border-left: 1px solid black;
-        border-right: 1px solid black;
-        border-bottom:  2px solid black;
-        
+        border: 1px solid black;
     }
 
     nav li{
@@ -62,31 +54,34 @@
 
     img{
         display: block;
-        width: 50%;
+        width: 100%;
+    }
+
+    h3{
+        padding: .5rem;
+    }
+
+    article{
+        margin-bottom: .5rem;
+    }
+
+    .card1{
+        border: black solid 1px;
     }
 
     .articleList{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         background-color: white;
         border: 2rem;
     }
 
-
-    .me{
-        margin-left: 9rem;
-    }
-
     .aboutme{
         color: rgb(150, 5, 5);
-        margin-left: 7rem;
-        /* margin-top: 1rem; */
-        padding: 1rem;
     }
 
     /* edit the margin bottom after values are set */
-    .webtitle{
-        padding: 1rem;
-        color: white;
-    }
+
 
     .webdescription{
         text-align: center;
@@ -95,9 +90,29 @@
         background-color: white;
     }
 
+    .photoCaption{
+        background-color: rgb(230, 247, 247);
+        font-style: italic;
+        margin-bottom: .5rem;
+    }
+
     @media screen and (min-width: 20rem){
+        
         .webtitle{
-            margin-left: 1rem;
+            padding: .5rem;
+            margin-left: 6rem;
+        }
+        .aboutme{
+            margin-left: 6rem;
+            padding: 1rem;
+        }
+        .card1{
+            padding: 1rem;
+            border: black solid 1px;
+        }
+        .card2{
+            padding: 1rem;
+            border: black solid 1px;
         }
 
     }
